@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/.svg)](https://zenodo.org/badge/latestdoi/)
+[![DOI](https://zenodo.org/badge/6913784.svg)](https://zenodo.org/badge/latestdoi/6913784)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/fusion-jena/wiki-category-consistency/blob/master/LICENSE)
 
 # Consistency between Wikidata and Wikipedia Categories
