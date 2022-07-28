@@ -28,7 +28,7 @@ import Zlib from 'zlib';
 
   /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX First Phase XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
-  /*   Log.info( '---------------- Phase 1 (Wikidata) ----------------' );
+    Log.info( '---------------- Phase 1 (Wikidata) ----------------' );
 
   // collect query modules
   queries.length = 0;
@@ -99,7 +99,7 @@ import Zlib from 'zlib';
 
   /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX Second Phase XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
-  /*  Log.info( '---------------- Phase 2 (Wikipedia download) ----------------' );
+    Log.info( '---------------- Phase 2 (Wikipedia download) ----------------' );
 
   // return list of categories together with their corresponding target
   let catToTarget = getCatsTarget();
@@ -108,10 +108,9 @@ import Zlib from 'zlib';
   let grouped = await groupByLang(catToTarget.exclude , catToTarget.catToTarget);
 
   //download wikipedia dump tables for all languages
-  await downloadAll(grouped.langList.both);*/
+  await downloadAll(grouped.langList.both);
 
 
-/*
   Log.info( '---------------- Phase 2 (Wikipedia cache population) ----------------' );
 
   let group = JSON.parse(Fs.readFileSync(CacheConfig.catGroupedBylang));
@@ -121,11 +120,11 @@ import Zlib from 'zlib';
   delete grouped.en;
   let newgrouped = Object.assign({en: temp}, grouped);*/
 
-  //await populateCaches(group);
+  await populateCaches(group);
 
   /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX Third Phase XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
-  /*  Log.info( '---------------- Phase 3 (Wikidata) ----------------' );
+    Log.info( '---------------- Phase 3 (Wikidata) ----------------' );
 
   // collect query modules
   queries.length = 0;
@@ -167,7 +166,7 @@ import Zlib from 'zlib';
 
   /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX Fourth Phase XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
-/*  Log.info( '---------------- Phase 4 (Wikidata) ----------------' );
+  Log.info( '---------------- Phase 4 (Wikidata) ----------------' );
 
   // collect query modules
   queries.length = 0;
