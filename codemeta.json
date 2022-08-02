@@ -2,12 +2,12 @@
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
     "license": "https://spdx.org/licenses/MIT",
-    "codeRepository": "",
-    "dateCreated": "",
-    "datePublished": "",
+    "codeRepository": "https://github.com/fusion-jena/wiki-category-consistency",
+    "dateCreated": "2022-07-27",
+    "datePublished": "2022-07-27",
     "dateModified": "",
     "downloadUrl": "",
-    "issueTracker": "",
+    "issueTracker": "https://github.com/fusion-jena/wiki-category-consistency/issues",
     "name": "wiki-category-consistency",
     "version": "1.0.1",
     "identifier": "",
@@ -15,7 +15,8 @@
     "referencePublication": "",
     "keywords": [
         "Wikidata",
-        "Wikipedia"
+        "Wikipedia",
+		"Wikipedia Category"
     ],
     "programmingLanguage": [
         "JavaScript"
