@@ -113,6 +113,6 @@
 
 ## License
 
-This project is licensed under the [MIT License](https://git.rz.uni-jena.de/fusion/project/dlr-knowledge-modeling/wiki-category-consistency/-/blob/master/LICENSE).
+This project is licensed under the [MIT License](https://github.com/fusion-jena/wiki-category-consistency/blob/master/LICENSE).
 
 
