@@ -9,7 +9,7 @@
     "downloadUrl": "",
     "issueTracker": "https://github.com/fusion-jena/wiki-category-consistency/issues",
     "name": "wiki-category-consistency",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "identifier": "",
     "description": "Source code for Evaluating the consistency between Wikipedia and Wikidata categories",
     "referencePublication": "",
