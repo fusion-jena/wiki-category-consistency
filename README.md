@@ -108,8 +108,27 @@
 
 - Experiment results (`./eval/compare.json` with a statistics file) using the previously mentioned dump versions, are provided on Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6913332.svg)](https://doi.org/10.5281/zenodo.6913332).
 
-
-<!---## Cite , consider updating codemeta with paper link and also zenodo metadata-->
+## Citation
+```
+@inproceedings{DBLP:conf/semweb/Feddoul0S22,
+  author       = {Leila Feddoul and
+                  Frank L{\"{o}}ffler and
+                  Sirko Schindler},
+  editor       = {Lucie{-}Aim{\'{e}}e Kaffee and
+                  Simon Razniewski and
+                  Gabriel Amaral and
+                  Kholoud Saad Alghamdi},
+  title        = {Analysis of Consistency between Wikidata and Wikipedia categories},
+  booktitle    = {Proceedings of the 3rd Wikidata Workshop 2022 co-located with the
+                  21st International Semantic Web Conference (ISWC2022), Virtual Event,
+                  Hanghzou, China, October 2022},
+  series       = {{CEUR} Workshop Proceedings},
+  volume       = {3262},
+  publisher    = {CEUR-WS.org},
+  year         = {2022},
+  url          = {https://ceur-ws.org/Vol-3262/paper4.pdf}
+}
+```
 
 ## License
 
