@@ -12,7 +12,7 @@
     "version": "1.0.2",
     "identifier": "",
     "description": "Source code for Evaluating the consistency between Wikipedia and Wikidata categories",
-    "referencePublication": "",
+    "referencePublication": "https://ceur-ws.org/Vol-3262/paper4.pdf",
     "keywords": [
         "Wikidata",
         "Wikipedia",
